@@ -15,5 +15,6 @@ This principle states that objects in a program should be replaceable with insta
 
 ## Interface Segregation Principle (ISP):
 This principle states that clients should not be forced to depend on interfaces they do not use. 
+
 ## Dependency Inversion Principle (DIP):
 This principle suggests that high-level modules should not depend on low-level modules, but rather on abstractions. 
