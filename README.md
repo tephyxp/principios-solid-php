@@ -15,5 +15,14 @@ This principle states that objects in a program should be replaceable with insta
 
 ## Interface Segregation Principle (ISP):
 This principle states that clients should not be forced to depend on interfaces they do not use. 
+
+In this example, we have a circus theme with different types of performers: jugglers, tightrope walkers, and clowns. Each performer has specific actions they can perform. To adhere to the Interface Segregation Principle, we define separate interfaces for each performer type: Juggler, TightropeWalker, and Clown. Each interface declares methods specific to the corresponding performer type.
+
+For example, the Juggler interface declares the juggle() method, the TightropeWalker interface declares the balance() method, and the Clown interface declares the entertain() method.
+
+The classes implementing these interfaces provide concrete implementations of the methods. The Client class interacts with performers through these interfaces, calling only the methods it needs, without being forced to depend on methods irrelevant to its context.
+
+This approach ensures that each class and interface has a clear and specific purpose, promoting code clarity, maintainability, and flexibility, which are the key objectives of the Interface Segregation Principle.
+
 ## Dependency Inversion Principle (DIP):
 This principle suggests that high-level modules should not depend on low-level modules, but rather on abstractions. 
