@@ -26,3 +26,4 @@ This approach ensures that each class and interface has a clear and specific pur
 
 ## Dependency Inversion Principle (DIP):
 This principle suggests that high-level modules should not depend on low-level modules, but rather on abstractions. 
+In a circus, this could mean that the overall planning and coordination of the show should not directly depend on the specific details of individual performances, but rather on abstractions that allow managing the overall flow of the show independently of the specific performances being carried out at any given time. 
